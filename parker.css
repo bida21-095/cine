@@ -1,0 +1,56 @@
+*{
+box-sizing: boarder-box;
+}
+body{
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display:flex;
+	flex-direction:column;
+}
+header{
+	height:15vh;
+}
+nav{
+	height:10vh;
+	color:pink;
+}
+main{
+	height:55vh;
+}
+footer{
+	height:20vh;
+}
+.parker{
+	overflow:hidden;
+}
+.parker{
+	float:center;
+	display:block;
+	text-align:center;
+	padding:16px 18px;
+	font-size: 16px;
+	background:blue;
+}
+.parker input[type=text]{
+	float:right;
+	padding:6px;
+	border:none;
+	margin-top:8px;
+	font-size:16px;
+}
+.letty{
+	border:ridge;
+	background-color:pink;
+	display:flex;
+	flex-direction:row;
+	padding:35px;
+	font-size:24px;
+	text-align:center;
+}
+.letsile{
+	text-align:center;
+	text-decoration:underline;
+}
+
+	
